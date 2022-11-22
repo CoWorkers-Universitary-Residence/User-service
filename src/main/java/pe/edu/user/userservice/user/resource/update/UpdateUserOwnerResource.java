@@ -11,6 +11,7 @@ import java.util.Date;
 @Setter
 @With
 public class UpdateUserOwnerResource {
+    private Long id;
     private String name;
     private String lastName;
     private Gender gender;
